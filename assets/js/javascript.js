@@ -5,6 +5,8 @@ function numberConversion() {
     myNumber.toString(16) + " Hexadecimal, " +
     myNumber.toString(8) + " Octal, " +
     myNumber.toString(2) + " Binary."
+  } else {
+    document.getElementById("result").innerHTML = "Your query wasn't a number";
   }
 }
 
