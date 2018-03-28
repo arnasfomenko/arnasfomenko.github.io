@@ -1,0 +1,10 @@
+body {
+  height: 100%;
+  margin: auto;
+}
+.main {
+  margin-top: 300px;
+}
+.submit {
+  margin-top: 20px;
+}
