@@ -1,9 +1,9 @@
 function numberConversion() {
-  var myNumber = parseInt(document.getElementById("number").value);
+  let myNumber = parseInt(document.getElementById("number").value);
   if (numberValidation(myNumber)) {
-    var hexadecimal = myNumber.toString(16);
-    var octal = myNumber.toString(8);
-    var binary = myNumber.toString(2);
+    let hexadecimal = myNumber.toString(16);
+    let octal = myNumber.toString(8);
+    let binary = myNumber.toString(2);
     if (myNumber < 0) {
       myNumber = -myNumber;
       hexadecimal = hexadecimal.slice( 1 );
